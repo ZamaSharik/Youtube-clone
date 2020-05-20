@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>YouTube Search</title>
+  <script type="text/javascript" src="load-page.js"></script>
+  <script src="https://apis.google.com/js/client.js?onload=init2"></script>
+  <script src="pagination.js" defer></script>
+  <script src="print-results.js" defer></script>
+  <script src="search-query.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="init()">
+  <div id="page-number">
+    Page Number:
+    <input type="text" id="currentPageNumber" placeholder="Page number" size="10">
+  </div>
+  <main>
+    <template id="templateid">
+      <div class="templateDivid">
+        <img id="img">
+        <div id="publishedDate">Published Date:</div>
+        <div id="title">Title:</div>
+        <div id="description">Description: </div>
+      </div>
+    </template>
+    <div id="mainid"></div>
+  </main>
+</body>
+
+</html>

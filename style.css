@@ -1,0 +1,97 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+div#page-number {
+  margin-top: 15px;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+#currentPageNumber{
+  margin-top: 8px;
+}
+
+div#mainid {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.templateDivid {
+  border: 2px solid black;
+  font-size: 18px;
+  margin-bottom: 10px;
+  width: 26.5em;
+  margin
+}
+
+.templateDivid {
+  border: 2px solid black;
+  font-size: 18px;
+}
+
+#search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: pink;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+#querySearch {
+  background-color: black;
+  height: 26px;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+}
+
+#label {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+#incomingQuery {
+  border: 2px solid black;
+  height: 30px;
+  text-align: center;
+  font-size: 17px;
+}
+
+#footerDivID {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#buttonNext {
+  background-color: black;
+  height: 26px;
+  color: white;
+
+  font-size: 18px;
+  border: 2px solid black;
+}
+
+#buttonPrev {
+  background-color: black;
+  height: 26px;
+  color: white;
+
+  font-size: 18px;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
